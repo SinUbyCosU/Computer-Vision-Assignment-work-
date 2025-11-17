@@ -11,7 +11,7 @@ This repository contains a comprehensive computer vision assignment implementing
 1. **Integral Images & Haar Features** - Fast computation of rectangular features for object detection
 2. **Texture Classification** - Comparing different feature extraction methods for texture recognition
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 CV assigment 2/
@@ -34,7 +34,7 @@ CV assigment 2/
 - **Cameraman image** (`cameraman.jpg` or `cameraman.png`) in `data/` folder
 - **KTH-TIPS dataset** in `kth-dataset/` folder with texture subfolders
 
-## 🚀 Quick Start
+##  Quick Start
 
 1. **Clone/Download** this repository
 2. **Place required images:**
@@ -47,7 +47,7 @@ CV assigment 2/
 3. **Open** `cv_assignment.ipynb` in Jupyter/VSCode
 4. **Run cells sequentially** - each section is self-contained
 
-## 📚 Part 1: Integral Images & Haar Features
+##  Part 1: Integral Images & Haar Features
 
 ### What it does:
 - Implements **integral image computation** from scratch
@@ -71,7 +71,7 @@ haar_horizontal_line(integral, ...)     # Line pattern detection
 - **Object recognition** using rectangular features
 - **Real-time processing** due to O(1) rectangle queries
 
-## 📊 Part 2: Texture Classification
+##  Part 2: Texture Classification
 
 ### Methods Implemented:
 
@@ -103,7 +103,7 @@ haar_horizontal_line(integral, ...)     # Line pattern detection
 | **Built-in** | KNN | SciPy functions | Optimized, reliable | Limited algorithms |
 | **Sklearn** | SVM | Scikit-learn | Professional grade | Pandas conflicts |
 
-## 🔧 Technical Details
+##  Technical Details
 
 ### Pandas Conflict Resolution
 The notebook includes multiple strategies to handle sklearn-pandas conflicts:
@@ -125,7 +125,7 @@ scaler = SimpleScaler()                    # Custom implementation
 X_scaled = scaler.fit_transform(X_train)   # Normalize features
 ```
 
-## 📈 Results & Analysis
+##  Results & Analysis
 
 The notebook provides comprehensive comparisons:
 
@@ -146,7 +146,7 @@ Each method reports:
 - Prediction time (seconds)
 - Feature dimensionality
 
-## 🎯 Key Learning Outcomes
+##  Key Learning Outcomes
 
 1. **Integral Images:**
    - Understand cumulative sum computation
@@ -163,7 +163,7 @@ Each method reports:
    - Handle library conflicts professionally
    - Create robust, well-documented code
 
-## 🔍 Code Organization
+##  Code Organization
 
 ### Cell Structure:
 1. **Setup & Imports** (Cells 1-4)
@@ -183,7 +183,7 @@ Each method reports:
 - Markdown explanations between code sections
 - Real-world context and applications
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### Common Issues:
 
@@ -211,7 +211,7 @@ Solution: Use built-in scipy functions
 Alternative: Reduce dataset size for testing
 ```
 
-## 📖 References & Further Reading
+##  References & Further Reading
 
 ### Algorithms:
 - **Viola-Jones Face Detection:** Original integral image paper
@@ -229,7 +229,7 @@ Alternative: Reduce dataset size for testing
 - **Matplotlib:** Visualization
 - **Scikit-learn:** Machine learning algorithms
 
-## 🎉 Conclusion
+##  Conclusion
 
 This assignment demonstrates:
 - **Low-level computer vision** algorithm implementation
@@ -252,3 +252,4 @@ The comprehensive comparison shows that **no single method is universally best**
 ---
 
 *This assignment provides a solid foundation in classical computer vision techniques while maintaining practical relevance for modern applications.*
+
