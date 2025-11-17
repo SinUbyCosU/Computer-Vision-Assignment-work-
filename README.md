@@ -1,4 +1,5 @@
-
+!!!THERE ARE MULTIPLE BRANCHES REPRESENTATING DIFFRENT ASSIGMENTS AND METHODS!!!
+click on braches to move from main to Assignment 1 and Assignment 2
 
 Dependencies
 - Python 3.8+
